@@ -76,13 +76,6 @@ int main() {
         printf("무승부!\n");
     }
 
-    // 게임 재시작 여부 확인
-    printf("게임을 다시 플레이하시겠습니까? (y/n): ");
-    scanf(" %c", &choice);
-
-    if (choice == 'y' || choice == 'Y') {
-        // 게임 초기화 코드 추가
-    }
 
     return 0;
 }
